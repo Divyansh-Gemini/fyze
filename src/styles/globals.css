@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --primary: #FFC107;
+
+    --gray100: #F9F9FA;
+    --gray200: #F4F4F5;
+    --gray300: #ECECEE;
+    --gray400: #8F949C;
+    --gray500: #262B36;
+    --gray600: #111113;
+}
+
+* {
+    @apply m-0 p-0 box-border;
+}
+
+textarea {
+    @apply resize-none
+}
+
+.form {
+    @apply flex flex-col gap-8 w-fit dark:bg-gray600 bg-gray100 mx-auto p-8 rounded-2xl shadow-lg
+}
+
+.form-field-grp {
+    @apply flex gap-x-10 max-md:flex-col max-md:gap-8
+}
+
+.form-field {
+    @apply flex flex-col gap-1
+}
+
+.label {
+    @apply text-base font-normal
+}
+
+.radio-chip-grp {
+    @apply flex gap-x-4 gap-y-4 flex-wrap
+}
+
+.hide {
+    @apply absolute opacity-0 w-0 h-0 pointer-events-none
+}
+
+/* ---------- Remove arrows for number inputs ---------- */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/* ----------------------------------------------------- */

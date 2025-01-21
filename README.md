@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fyze
 
-## Getting Started
+## Description
+TODO
 
-First, run the development server:
+## Tech Stack
+- Next.js
+- TypeScript
+- Redux
+- TailwindCSS
+- Docker
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p align="center">
+    <a href="https://divyanshgemini.dev/">
+        <img src="https://skillicons.dev/icons?i=nextjs,ts,redux,tailwind,docker" alt="tech stack" />
+    </a>
+</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Developer Setup
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Install [Node.js](https://nodejs.org/en/download/prebuilt-installer/)
+2. Install [Git](https://git-scm.com/downloads)
+3. Install [WebStorm](https://www.jetbrains.com/webstorm/) or [VS Code](https://code.visualstudio.com/download)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Useful VS Code Extensions
 
-## Learn More
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+- [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ES7+ React/Redux/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
+- [Simple React Snippets](https://marketplace.visualstudio.com/items?itemName=burkeholland.simple-react-snippets)
 
-To learn more about Next.js, take a look at the following resources:
+## Installation Steps
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/Divyansh-Gemini/fyze.git
+   ```
 
-## Deploy on Vercel
+2. Switch to the project directory
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   cd fyze
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. Install the dependencies
+
+   ```bash
+   npm install
+   ```
+
+4. Run the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+5. Open http://localhost:3000 in your browser to see the result.
+
+## Git commit convention
+
+https://gist.github.com/qoomon/5dfcdf8eec66a051ecd85625518cfd13

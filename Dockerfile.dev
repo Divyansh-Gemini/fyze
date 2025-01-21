@@ -1,0 +1,20 @@
+# Use Node.js image as base image
+FROM node:22
+
+# Create & change to app directory
+WORKDIR /app
+
+# Copy package.json & package-lock.json files
+COPY package*.json ./
+
+# Clean & install dependencies
+RUN npm ci
+
+# Copy code
+COPY . .
+
+# Expose port the app runs on
+EXPOSE 3000
+
+# Command to run app in development mode
+CMD ["npm", "run", "dev"]
